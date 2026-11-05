@@ -1273,3 +1273,13 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/* Hero typed text and cursor in white */
+.hero p,
+.hero p .typed,
+.hero p .typed-cursor {
+  color: #ffffff;
+}
+
+.hero p .typed-cursor {
+  opacity: 1;
+}
