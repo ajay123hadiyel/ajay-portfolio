@@ -1536,3 +1536,35 @@ button:focus-visible,
     transform: none !important;
   }
 }
+
+/* Hire CTA strip and stronger contact CTA */
+.hire-cta {
+  background: #040b14;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+.hire-cta h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.hire-cta p {
+  margin-bottom: 24px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.contact .contact-cta {
+  border-radius: 8px;
+  border: 2px solid var(--accent-dark);
+  background: color-mix(in srgb, var(--accent-dark), transparent 94%);
+}
+
+.contact .contact-cta .btn-primary {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  padding: 12px 28px;
+  font-weight: 600;
+}
