@@ -1273,7 +1273,8 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-/* Hero typed text and cursor in white */
+/* Hero name, typed text and cursor in white */
+.hero h2,
 .hero p,
 .hero p .typed,
 .hero p .typed-cursor {
