@@ -1315,3 +1315,23 @@ section,
   border: 1px solid color-mix(in srgb, var(--accent-color), transparent 60%);
   background: color-mix(in srgb, var(--accent-color), transparent 93%);
 }
+
+/* Always-visible project title, hidden when the hover overlay shows */
+.portfolio .portfolio-content .portfolio-title {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  padding: 12px 15px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.portfolio .portfolio-content:hover .portfolio-title {
+  opacity: 0;
+}
