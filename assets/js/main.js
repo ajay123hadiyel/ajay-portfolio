@@ -20,6 +20,12 @@
     headerToggleBtn.classList.toggle('bi-x');
   }
   headerToggleBtn.addEventListener('click', headerToggle);
+  headerToggleBtn.addEventListener('keydown', function(e) {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      headerToggle();
+    }
+  });
 
   /**
    * Hide mobile nav on same-page/hash links

@@ -174,7 +174,9 @@ h6 {
   margin-right: 8px;
 }
 
-.header .logo h1 {
+.header .logo h1,
+.header .logo .sitename {
+  font-family: var(--heading-font);
   font-size: 24px;
   margin: 0;
   font-weight: 700;
@@ -621,7 +623,8 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about .content h2 {
+.about .content h2,
+.about .content h3 {
   font-weight: 700;
   font-size: 24px;
 }
@@ -1334,4 +1337,202 @@ section,
 
 .portfolio .portfolio-content:hover .portfolio-title {
   opacity: 0;
+}
+
+
+/*--------------------------------------------------------------
+# Portfolio improvements (hero CTA, skills, projects, a11y)
+--------------------------------------------------------------*/
+:root {
+  --accent-dark: #0b78ab;
+}
+
+/* Hero: darker overlay so white text stays readable */
+.hero:before {
+  background: rgba(4, 11, 20, 0.65);
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 52px;
+  line-height: 1.15;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.hero .hero-name {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.hero .hero-lead {
+  max-width: 640px;
+  margin: 20px 0 0 0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.hero .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.btn-hero {
+  display: inline-block;
+  padding: 12px 28px;
+  border-radius: 50px;
+  border: 2px solid transparent;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-hero-primary {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: #ffffff;
+}
+
+.btn-hero-primary:hover {
+  background: #0e93d0;
+  border-color: #0e93d0;
+  color: #ffffff;
+}
+
+.btn-hero-secondary {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-hero-secondary:hover {
+  background: #ffffff;
+  color: #050d18;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero .hero-lead {
+    font-size: 17px;
+  }
+}
+
+/* Skills groups */
+.skills .skill-group {
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 88%);
+  background: var(--surface-color);
+}
+
+.skills .skill-group h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.skills .skill-group ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills .skill-group li {
+  position: relative;
+  padding: 4px 0 4px 18px;
+  font-size: 15px;
+}
+
+.skills .skill-group li:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 13px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent-color);
+}
+
+.skills .skills-tools {
+  margin: 24px 0 0 0;
+  font-weight: 600;
+}
+
+/* Project details under each card */
+.portfolio .project-meta {
+  padding: 14px 2px 0 2px;
+  font-size: 15px;
+}
+
+.portfolio .project-meta p {
+  margin: 0 0 8px 0;
+}
+
+.portfolio .project-meta .overview {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+.portfolio .project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.portfolio .project-tech li {
+  padding: 3px 12px;
+  border-radius: 50px;
+  font-size: 13px;
+  color: var(--accent-dark);
+  border: 1px solid color-mix(in srgb, var(--accent-dark), transparent 60%);
+  background: color-mix(in srgb, var(--accent-dark), transparent 94%);
+}
+
+.portfolio .project-link {
+  font-weight: 600;
+  color: var(--accent-dark);
+}
+
+.hotel-projects li {
+  color: var(--accent-dark);
+}
+
+/* Keyboard focus */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 3px;
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  [data-aos] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
 }
