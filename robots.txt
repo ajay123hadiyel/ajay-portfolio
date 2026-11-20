@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ajay123hadiyel.github.io/ajay-portfolio/sitemap.xml

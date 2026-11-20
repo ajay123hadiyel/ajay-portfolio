@@ -7,7 +7,6 @@
   <title>Ajay Hadiyel | Senior WordPress Developer – Freelance &amp; Remote</title>
   <meta content="Ajay Hadiyel is a freelance and remote Senior WordPress developer with 6+ years of experience building custom WordPress themes, plugins, ACF and Gutenberg solutions, WooCommerce customizations and Shopify themes." name="description">
   <meta content="Ajay Hadiyel, WordPress Developer, PHP Developer, Shopify Developer, WooCommerce, ACF, Gutenberg" name="keywords">
-
   <link rel="canonical" href="https://ajay123hadiyel.github.io/ajay-portfolio/">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Ajay Hadiyel">
@@ -15,13 +14,14 @@
   <meta property="og:title" content="Ajay Hadiyel | Senior WordPress Developer – Freelance &amp; Remote">
   <meta property="og:description" content="Ajay Hadiyel is a freelance and remote Senior WordPress developer with 6+ years of experience building custom WordPress themes, plugins, ACF and Gutenberg solutions, WooCommerce customizations and Shopify themes.">
   <meta property="og:url" content="https://ajay123hadiyel.github.io/ajay-portfolio/">
-  <meta property="og:image" content="https://ajay123hadiyel.github.io/ajay-portfolio/assets/img/my-profile-img.jpg">
-  <meta property="og:image:width" content="600">
-  <meta property="og:image:height" content="600">
+  <meta property="og:image" content="https://ajay123hadiyel.github.io/ajay-portfolio/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="Ajay Hadiyel, Senior WordPress Developer">
-  <meta name="twitter:card" content="summary">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Ajay Hadiyel | Senior WordPress Developer – Freelance &amp; Remote">
-  <meta name="twitter:image" content="https://ajay123hadiyel.github.io/ajay-portfolio/assets/img/my-profile-img.jpg">
+  <meta name="twitter:image" content="https://ajay123hadiyel.github.io/ajay-portfolio/assets/img/og-image.jpg">
+  <meta name="theme-color" content="#050b18">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.ico" rel="icon" sizes="any">
@@ -32,212 +32,590 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vendor CSS -->
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Site CSS -->
+  <link href="assets/css/site.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: iPortfolio
-  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-  * Updated: Jun 29 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Template credit: iPortfolio by BootstrapMade (https://bootstrapmade.com/) -->
 </head>
 
-<body class="index-page">
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"><span></span></div>
 
-  <header id="header" class="header dark-background d-flex flex-column">
-    <i class="header-toggle d-xl-none bi bi-list" role="button" tabindex="0" aria-label="Toggle navigation"></i>
-
-    <div class="profile-img">
-      <img src="assets/img/my-profile-img.jpg" alt="Ajay Hadiyel" width="600" height="600" class="img-fluid rounded-circle">
+  <header class="site-header" id="header">
+    <div class="container nav-inner">
+      <a href="#home" class="brand" aria-label="Ajay Hadiyel, home">
+        <img src="assets/img/apple-touch-icon.png" width="42" height="42" alt="">
+        <span>Ajay Hadiyel</span>
+      </a>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn-x btn-grad nav-cta" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Hire Me</a>
+        <button class="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav"><i class="bi bi-list" aria-hidden="true"></i></button>
+      </div>
     </div>
-
-    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
-      <!-- Uncomment the line below if you also wish to use an image logo -->
-      <!-- <img src="assets/img/logo.png" alt=""> -->
-      <div class="sitename">Ajay Hadiyel</div>
-    </a>
-
-    <div class="social-links text-center">
-      <a href="mailto:ajayhadiyel5@gmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
-      <a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener" class="linkedin" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-      <a href="https://github.com/ajay123hadiyel" target="_blank" rel="noopener" class="github" aria-label="GitHub"><i class="bi bi-github"></i></a>
-      <a href="https://wa.me/919712612182" target="_blank" rel="noopener" class="whatsapp" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-    </div>
-
-    <nav id="navmenu" class="navmenu">
-      <ul>
-        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
-        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
-        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
-        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
-        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
-<li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
-      </ul>
-    </nav>
-
   </header>
 
-  <main class="main">
+  <main id="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-      <img src="assets/img/hero-bg.jpg" alt="" width="1920" height="1280" data-aos="fade-in">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <p class="hero-name">Ajay Hadiyel · Freelance &amp; Remote</p>
-        <h1>I'm a Senior WordPress Developer</h1>
-        <p class="hero-lead">I help businesses and agencies build custom WordPress websites, plugins, WooCommerce solutions, and high-performance web experiences.</p>
-        <div class="hero-actions">
-          <a class="btn-hero btn-hero-primary" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project</a>
-          <a class="btn-hero btn-hero-secondary" href="#portfolio">View My Work</a>
-        </div>
-      </div>
-    </section><!-- /Hero Section -->
-
-    <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About Me</h2>
-        <p>Senior WordPress Developer with 6+ years of experience creating scalable, maintainable and performance-focused web solutions.</p>
-      </div>
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4"><img src="assets/img/my-profile-img.jpg" class="img-fluid" width="600" height="600" loading="lazy" alt="Ajay Hadiyel, Senior WordPress Developer"></div>
-          <div class="col-lg-8 content">
-            <h3>Senior WordPress / PHP Developer</h3>
-            <p class="fst-italic py-3">I build custom WordPress themes and plugins, ACF-based architectures, Gutenberg blocks, WooCommerce experiences, dynamic configurators, API integrations and Shopify theme customizations.</p>
-            <div class="row"><div class="col-lg-6"><ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Location:</strong> <span>Rajkot, Gujarat, India</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span><a href="tel:+919712612182">+91 9712612182</a></span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Experience:</strong> <span>6+ Years</span></li>
-            </ul></div><div class="col-lg-6"><ul>
-              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:ajayhadiyel5@gmail.com">ajayhadiyel5@gmail.com</a></span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.C.A.</span></li>
-              <li><i class="bi bi-chevron-right"></i> <strong>Work:</strong> <span>Freelance / Remote opportunities</span></li>
-            </ul></div></div>
-            <p class="py-3">My work includes booking integrations, AJAX-driven functionality, dynamic pricing and product configurators, data scraping, cron automation and reusable frontend components. I focus on turning client requirements into reliable web experiences.</p>
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <img class="hero-bg" src="assets/img/hero-bg.jpg" alt="" width="1920" height="1280">
+      <span class="orb orb-1" aria-hidden="true"></span><span class="orb orb-2" aria-hidden="true"></span>
+      <canvas id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-copy">
+          <span class="hero-pill"><span class="dot" aria-hidden="true"></span> Open to freelance &amp; remote projects</span>
+          <p class="hero-name">Ajay Hadiyel</p>
+          <h1>I'm a <span class="grad-text">Senior<br>WordPress Developer</span></h1>
+          <p class="hero-typed">Specialising in <span class="typed" data-typed-items="Custom WordPress Themes,Custom Plugin Development,WooCommerce Customization,ACF &amp; Gutenberg Blocks,Shopify Liquid Themes">Custom WordPress Themes</span></p>
+          <p class="hero-lead">I help businesses and agencies build custom WordPress websites, plugins, WooCommerce solutions, and high-performance web experiences.</p>
+          <div class="hero-actions">
+            <a class="btn-x btn-grad" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            <a class="btn-x btn-ghost" href="#portfolio">View My Work</a>
+          </div>
+          <div class="hero-social">
+            <span>Find me on</span>
+            <a href="mailto:ajayhadiyel5@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="https://github.com/ajay123hadiyel" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+            <a href="https://wa.me/919712612182" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
           </div>
         </div>
       </div>
-    </section><!-- /About Section -->
+    </section>
 
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row gy-4">
-        <div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-calendar-check"></i><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter"></span><p><strong>Years Experience</strong> <span>Web development</span></p></div></div>
-        <div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-code-slash"></i><span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span><p><strong>Featured Projects</strong> <span>Selected portfolio</span></p></div></div>
-        <div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-building"></i><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span><p><strong>Companies</strong> <span>Career experience</span></p></div></div>
-        <div class="col-lg-3 col-md-6"><div class="stats-item"><i class="bi bi-hospital"></i><span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span><p><strong>Hotel Projects</strong> <span>Selected work</span></p></div></div>
-      </div></div>
-    </section><!-- /Stats Section -->
-
-    <!-- Skills Section -->
-    <section id="skills" class="skills section">
-      <div class="container section-title" data-aos="fade-up"><h2>Core Skills</h2><p>Technologies and skills I work with, grouped by area.</p></div>
-      <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row gy-4"><div class="col-lg-3 col-md-6"><div class="skill-group h-100"><h3>WordPress Development</h3><ul><li>Custom theme development</li><li>Custom plugin development</li><li>ACF and Gutenberg blocks</li><li>Elementor</li><li>WordPress hooks</li><li>REST API integrations</li><li>AJAX-based functionality</li><li>Cron jobs and data scraping</li></ul></div></div><div class="col-lg-3 col-md-6"><div class="skill-group h-100"><h3>E-commerce</h3><ul><li>WooCommerce customization</li><li>Dynamic pricing</li><li>Product configurators</li><li>Booking and checkout workflows</li><li>OpenCart customization</li></ul></div></div><div class="col-lg-3 col-md-6"><div class="skill-group h-100"><h3>Frontend &amp; Performance</h3><ul><li>HTML, CSS, SCSS</li><li>JavaScript and jQuery</li><li>GSAP animations</li><li>Responsive website development</li><li>Gulp build workflow</li><li>Performance-focused development</li></ul></div></div><div class="col-lg-3 col-md-6"><div class="skill-group h-100"><h3>Shopify</h3><ul><li>Theme customization</li><li>Shopify Liquid</li><li>Reusable sections and blocks</li></ul></div></div></div><p class="skills-tools text-center">Tools: GitHub, Gulp</p></div>
-    </section><!-- /Skills Section -->
-
-    <!-- Resume Section -->
-    <section id="resume" class="resume section">
-      <div class="container section-title" data-aos="fade-up"><h2>Resume</h2><p>Professional background, development experience and education.</p><p><a href="assets/downloads/Ajay_Hadiyel_Resume_2026.pdf" class="btn btn-primary" download><i class="bi bi-download"></i> Download Resume (PDF)</a></p></div>
-      <div class="container"><div class="row">
-        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-          <h3 class="resume-title">Professional Summary</h3><div class="resume-item pb-0"><h4>Ajay Hadiyel</h4><p><em>Senior WordPress Developer with 6+ years of experience building custom themes, plugins, ACF-based architectures, Gutenberg blocks, WooCommerce solutions, and performance-focused websites. Experienced in REST API integrations, AJAX-driven functionality, dynamic product/configurator systems, booking integrations, data scraping, cron automation, and Shopify theme customization. Strong background in translating client requirements into scalable and maintainable web solutions.</em></p><ul><li>Rajkot, Gujarat, India</li><li>+91 9712612182</li><li>ajayhadiyel5@gmail.com</li></ul></div>
-          <h3 class="resume-title">Education</h3><div class="resume-item"><h4>B.C.A. — Bachelor of Computer Applications</h4><h5>2015 – 2017</h5><p><em>J.J. Kundalia Commerce College, Saurashtra University</em></p></div>
-          <div class="resume-item"><h4>Higher Secondary Education</h4><h5>2013 – 2015</h5><p><em>Shree Hardhrol High School, Dhrol</em></p></div>
-        </div><div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-          <h3 class="resume-title">Professional Experience</h3>
-          <div class="resume-item"><h4>WordPress Developer &amp; Shopify</h4><h5>2021 – Present</h5><p><em>Eminent Coders</em></p><ul><li>Develop custom WordPress themes and plugins based on client requirements.</li><li>Build ACF-based architectures, Gutenberg blocks, dynamic content systems, and reusable components.</li><li>Integrate REST APIs and develop custom AJAX functionality for interactive web applications.</li><li>Develop and customize WooCommerce functionality, including dynamic product and pricing workflows.</li><li>Customize Shopify themes and build reusable content sections for responsive websites.</li></ul></div>
-          <div class="resume-item"><h4>WordPress Developer &amp; OpenCart</h4><h5>2019 – 2021</h5><p><em>Nlite Webs Solution</em></p><ul><li>Developed and customized WordPress websites based on client requirements.</li><li>Worked with OpenCart for e-commerce website development and customization.</li><li>Modified existing themes and functionality to deliver client-specific website solutions.</li></ul></div>
-          <div class="resume-item"><h4>Core PHP Developer</h4><h5>2018</h5><p><em>Alphaweb Technology</em></p><ul><li>Started as a Core PHP developer working with PHP and MySQL.</li><li>Developed and maintained basic websites and backend functionality.</li></ul></div>
-        </div></div></div>
-    </section><!-- /Resume Section -->
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
-      <div class="container section-title" data-aos="fade-up"><h2>Selected Projects</h2><p>A selection of WordPress, e-commerce, booking and Shopify development work.</p></div>
-      <div class="container"><div class="isotope-layout" data-default-filter="*" data-layout="fitRows" data-sort="original-order"><ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100"><li data-filter="*" class="filter-active">All</li><li data-filter=".filter-app">Custom Development</li><li data-filter=".filter-product">E-commerce</li><li data-filter=".filter-branding">CMS / Shopify</li></ul><div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200"><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"><div class="portfolio-content"><img src="assets/img/portfolio/app-1.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Campit Outdoor Resort project preview"><span class="portfolio-title">Campit Outdoor Resort</span><div class="portfolio-info"><h4>Campit Outdoor Resort</h4><a href="assets/img/portfolio/app-1.jpg" title="Campit Outdoor Resort" data-gallery="portfolio-gallery-0" class="glightbox preview-link" aria-label="View larger image: Campit Outdoor Resort"><i class="bi bi-zoom-in"></i></a><a href="https://campitresort.com/" title="View project" class="details-link" aria-label="Visit Campit Outdoor Resort website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Campground reservation system integrated with Campspot.</p><p class="work"><strong>My work:</strong> Built the booking flow: availability, site selection, guest details, taxes and fees, cart and checkout.</p><ul class="project-tech"><li>WordPress</li><li>Elementor</li><li>Campspot</li></ul><a class="project-link" href="https://campitresort.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Campit Outdoor Resort)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"><div class="portfolio-content"><img src="assets/img/portfolio/product-1.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Viper Powerboats project preview"><span class="portfolio-title">Viper Powerboats</span><div class="portfolio-info"><h4>Viper Powerboats</h4><a href="assets/img/portfolio/product-1.jpg" title="Viper Powerboats" data-gallery="portfolio-gallery-1" class="glightbox preview-link" aria-label="View larger image: Viper Powerboats"><i class="bi bi-zoom-in"></i></a><a href="https://viperpowerboats.com/" title="View project" class="details-link" aria-label="Visit Viper Powerboats website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Custom boat configurator with dynamic color switching.</p><p class="work"><strong>My work:</strong> Developed conditional, option-based pricing and automated PDF generation with the configured boat image.</p><ul class="project-tech"><li>Configurator</li><li>Conditional pricing</li><li>PDF generation</li></ul><a class="project-link" href="https://viperpowerboats.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Viper Powerboats)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"><div class="portfolio-content"><img src="assets/img/portfolio/app-2.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Arena Motor project preview"><span class="portfolio-title">Arena Motor</span><div class="portfolio-info"><h4>Arena Motor</h4><a href="assets/img/portfolio/app-2.jpg" title="Arena Motor" data-gallery="portfolio-gallery-2" class="glightbox preview-link" aria-label="View larger image: Arena Motor"><i class="bi bi-zoom-in"></i></a><a href="https://arenamotor.es/" title="View project" class="details-link" aria-label="Visit Arena Motor website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Bike configurator with conditional component selection.</p><p class="work"><strong>My work:</strong> Developed with ACF and WooCommerce: AJAX real-time pricing and dynamic product updates.</p><ul class="project-tech"><li>ACF</li><li>WooCommerce</li><li>AJAX</li></ul><a class="project-link" href="https://arenamotor.es/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Arena Motor)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"><div class="portfolio-content"><img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Go Professional project preview"><span class="portfolio-title">Go Professional</span><div class="portfolio-info"><h4>Go Professional</h4><a href="assets/img/portfolio/branding-1.jpg" title="Go Professional" data-gallery="portfolio-gallery-3" class="glightbox preview-link" aria-label="View larger image: Go Professional"><i class="bi bi-zoom-in"></i></a><a href="https://goprofessional.co.in/" title="View project" class="details-link" aria-label="Visit Go Professional website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Product subscription system with user-specific posters.</p><p class="work"><strong>My work:</strong> Developed the subscription system and poster creation and management.</p><ul class="project-tech"><li>WordPress</li><li>ACF</li></ul><a class="project-link" href="https://goprofessional.co.in/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Go Professional)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"><div class="portfolio-content"><img src="assets/img/portfolio/books-1.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Wylder Hotels project preview"><span class="portfolio-title">Wylder Hotels</span><div class="portfolio-info"><h4>Wylder Hotels</h4><a href="assets/img/portfolio/books-1.jpg" title="Wylder Hotels" data-gallery="portfolio-gallery-4" class="glightbox preview-link" aria-label="View larger image: Wylder Hotels"><i class="bi bi-zoom-in"></i></a><a href="https://wylderhotels.com/" title="View project" class="details-link" aria-label="Visit Wylder Hotels website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Custom WordPress website with dynamic offers and filters.</p><p class="work"><strong>My work:</strong> Developed with SCSS, Gulp.js and responsive Gutenberg blocks; built the offer listings and custom filters.</p><ul class="project-tech"><li>WordPress</li><li>Gutenberg</li><li>SCSS</li><li>Gulp.js</li></ul><a class="project-link" href="https://wylderhotels.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Wylder Hotels)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"><div class="portfolio-content"><img src="assets/img/portfolio/app-3.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Klinik Atlas project preview"><span class="portfolio-title">Klinik Atlas</span><div class="portfolio-info"><h4>Klinik Atlas</h4><a href="assets/img/portfolio/app-3.jpg" title="Klinik Atlas" data-gallery="portfolio-gallery-5" class="glightbox preview-link" aria-label="View larger image: Klinik Atlas"><i class="bi bi-zoom-in"></i></a><a href="https://klinik-atlas.info/" title="View project" class="details-link" aria-label="Visit Klinik Atlas website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Location data shown on an interactive map.</p><p class="work"><strong>My work:</strong> Implemented HTML DOM data scraping with monthly cron jobs and a Leaflet.js map with location popups.</p><ul class="project-tech"><li>Data scraping</li><li>Cron jobs</li><li>Leaflet.js</li></ul><a class="project-link" href="https://klinik-atlas.info/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Klinik Atlas)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"><div class="portfolio-content"><img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Bloc Skincare project preview"><span class="portfolio-title">Bloc Skincare</span><div class="portfolio-info"><h4>Bloc Skincare</h4><a href="assets/img/portfolio/branding-2.jpg" title="Bloc Skincare" data-gallery="portfolio-gallery-6" class="glightbox preview-link" aria-label="View larger image: Bloc Skincare"><i class="bi bi-zoom-in"></i></a><a href="https://blocskincare.com/" title="View project" class="details-link" aria-label="Visit Bloc Skincare website" target="_blank" rel="noopener"><i class="bi bi-link-45deg"></i></a></div></div><div class="project-meta"><p class="overview">Shopify theme customization for responsive brand pages.</p><p class="work"><strong>My work:</strong> Customized the theme and developed reusable content blocks.</p><ul class="project-tech"><li>Shopify</li><li>Liquid</li><li>Reusable blocks</li></ul><a class="project-link" href="https://blocskincare.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Bloc Skincare)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></div></div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"><div class="portfolio-content"><img src="assets/img/portfolio/product-2.jpg" class="img-fluid" width="1024" height="768" loading="lazy" alt="Premium WordPress Theme project preview"><span class="portfolio-title">Premium WordPress Theme</span><div class="portfolio-info"><h4>Premium WordPress Theme</h4><a href="assets/img/portfolio/product-2.jpg" title="Premium WordPress Theme" data-gallery="portfolio-gallery-7" class="glightbox preview-link" aria-label="View larger image: Premium WordPress Theme"><i class="bi bi-zoom-in"></i></a></div></div><div class="project-meta"><p class="overview">Custom premium WordPress theme.</p><p class="work"><strong>My work:</strong> Developed with ACF blocks, flexible layouts, header/footer variations and global color and font options.</p><ul class="project-tech"><li>WordPress</li><li>ACF blocks</li></ul></div></div></div></div></div>
-      <div class="container"><div class="hotel-projects" data-aos="fade-up"><h3>Hotel &amp; Hospitality Projects</h3><ul><li>Sea Bird Resort</li><li>Mission Pacific Hotel</li><li>LevelTen NYC</li><li>Hawks Cay</li><li>Casa Marcial</li><li>EAU Palm Beach</li><li>Equinox Spa</li></ul></div></div>
-    </section><!-- /Portfolio Section -->
-
-    <!-- Services Section -->
-    <section id="services" class="services section">
-      <div class="container section-title" data-aos="fade-up"><h2>Services</h2><p>Development services for businesses, agencies and clients looking for practical, maintainable web solutions.</p></div><div class="container"><div class="row gy-4"><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100"><div class="icon flex-shrink-0"><i class="bi bi-wordpress" aria-hidden="true"></i></div><div><h3 class="title">Custom WordPress Website Development</h3><p class="description">Tailored WordPress websites built around your requirements, including REST API, AJAX and booking integrations.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200"><div class="icon flex-shrink-0"><i class="bi bi-brush" aria-hidden="true"></i></div><div><h3 class="title">WordPress Theme Development</h3><p class="description">Custom and premium themes with flexible layouts, reusable components and global style options.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300"><div class="icon flex-shrink-0"><i class="bi bi-puzzle" aria-hidden="true"></i></div><div><h3 class="title">Custom WordPress Plugin Development</h3><p class="description">Custom plugins that add the functionality your site needs.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400"><div class="icon flex-shrink-0"><i class="bi bi-layout-text-window" aria-hidden="true"></i></div><div><h3 class="title">ACF &amp; Gutenberg Development</h3><p class="description">ACF-powered architectures and responsive Gutenberg blocks for flexible, editor-friendly content.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500"><div class="icon flex-shrink-0"><i class="bi bi-cart" aria-hidden="true"></i></div><div><h3 class="title">WooCommerce Customization</h3><p class="description">Dynamic pricing, product configurators, subscriptions and custom e-commerce workflows.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600"><div class="icon flex-shrink-0"><i class="bi bi-bug" aria-hidden="true"></i></div><div><h3 class="title">WordPress Bug Fixes &amp; Maintenance</h3><p class="description">Bug fixing, improvements and ongoing maintenance for existing WordPress sites.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="700"><div class="icon flex-shrink-0"><i class="bi bi-speedometer2" aria-hidden="true"></i></div><div><h3 class="title">Speed &amp; Performance Optimization</h3><p class="description">Performance-focused implementation and improvements for faster, scalable websites.</p></div></div><div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="800"><div class="icon flex-shrink-0"><i class="bi bi-shop" aria-hidden="true"></i></div><div><h3 class="title">Shopify Liquid Theme Customization</h3><p class="description">Shopify Liquid theme customization and reusable responsive sections.</p></div></div></div></div>
-    </section><!-- /Services Section -->
-
-    <!-- Hire CTA -->
-    <section id="hire" class="hire-cta section">
-      <div class="container text-center" data-aos="fade-up">
-        <h2>Need a WordPress developer for your project?</h2>
-        <p>Available for freelance and remote work with businesses and agencies.</p>
-        <a class="btn-hero btn-hero-primary" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project</a>
+    <!-- Stats -->
+    <section class="stats" aria-label="Highlights">
+      <div class="container" data-aos="fade-up">
+        <div class="stats-card">
+          <div class="stat"><span class="stat-icon"><i class="bi bi-calendar-check" aria-hidden="true"></i></span><div><span class="stat-num"><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter">6</span>+</span><span class="stat-label">Years Experience<br>Web development</span></div></div>
+          <div class="stat"><span class="stat-icon"><i class="bi bi-code-slash" aria-hidden="true"></i></span><div><span class="stat-num"><span data-purecounter-start="0" data-purecounter-end="12" data-purecounter-duration="1" class="purecounter">12</span></span><span class="stat-label">Featured Projects<br>Selected portfolio</span></div></div>
+          <div class="stat"><span class="stat-icon"><i class="bi bi-building" aria-hidden="true"></i></span><div><span class="stat-num"><span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter">3</span></span><span class="stat-label">Companies<br>Career experience</span></div></div>
+          <div class="stat"><span class="stat-icon"><i class="bi bi-hospital" aria-hidden="true"></i></span><div><span class="stat-num"><span data-purecounter-start="0" data-purecounter-end="6" data-purecounter-duration="1" class="purecounter">6</span></span><span class="stat-label">Hotel Projects<br>Selected work</span></div></div>
+        </div>
       </div>
-    </section><!-- /Hire CTA -->
+    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-      <div class="container section-title" data-aos="fade-up"><h2>Contact</h2><p>Open to freelance and remote WordPress projects.</p></div>
-      <div class="container" data-aos="fade-up" data-aos-delay="100"><div class="row gy-4">
-        <div class="col-lg-6"><div class="info-wrap">
-          <div class="info-item d-flex"><i class="bi bi-geo-alt flex-shrink-0"></i><div><h3>Location</h3><p>Rajkot, Gujarat, India</p></div></div>
-          <div class="info-item d-flex"><i class="bi bi-telephone flex-shrink-0"></i><div><h3>Phone</h3><p><a href="tel:+919712612182">+91 9712612182</a></p></div></div>
-          <div class="info-item d-flex"><i class="bi bi-whatsapp flex-shrink-0"></i><div><h3>WhatsApp</h3><p><a href="https://wa.me/919712612182" target="_blank" rel="noopener">Message on WhatsApp</a></p></div></div>
-          <div class="info-item d-flex"><i class="bi bi-envelope flex-shrink-0"></i><div><h3>Email</h3><p><a href="mailto:ajayhadiyel5@gmail.com">ajayhadiyel5@gmail.com</a></p></div></div>
-          <div class="info-item d-flex"><i class="bi bi-github flex-shrink-0"></i><div><h3>GitHub</h3><p><a href="https://github.com/ajay123hadiyel" target="_blank" rel="noopener">github.com/ajay123hadiyel</a></p></div></div>
-          <div class="info-item d-flex"><i class="bi bi-linkedin flex-shrink-0"></i><div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener">linkedin.com/in/ajay-hadiyel-180643166</a></p></div></div>
-        </div></div><div class="col-lg-6"><div class="contact-cta p-4"><h3>Have a project in mind? Let's talk.</h3><p>For WordPress, WooCommerce or Shopify projects, freelance work or agency collaboration, send me an email or connect on LinkedIn.</p><p><a class="btn btn-primary" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project by Email</a></p><p><a href="https://wa.me/919712612182" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a></p><p><a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener">Connect on LinkedIn</a></p></div></div>
-      </div></div>
-    </section><!-- /Contact Section -->
+    <!-- Tech marquee -->
+    <div class="marquee" aria-label="Technologies">
+      <div class="marquee-track" aria-hidden="true">
+        <ul><li>WordPress</li><li>PHP</li><li>WooCommerce</li><li>ACF</li><li>Gutenberg</li><li>Elementor</li><li>Shopify Liquid</li><li>REST API</li><li>AJAX</li><li>JavaScript</li><li>jQuery</li><li>SCSS</li><li>Gulp</li></ul>
+        <ul><li>WordPress</li><li>PHP</li><li>WooCommerce</li><li>ACF</li><li>Gutenberg</li><li>Elementor</li><li>Shopify Liquid</li><li>REST API</li><li>AJAX</li><li>JavaScript</li><li>jQuery</li><li>SCSS</li><li>Gulp</li></ul>
+      </div>
+      <p class="visually-hidden">WordPress, PHP, WooCommerce, ACF, Gutenberg, Elementor, Shopify Liquid, REST API, AJAX, JavaScript, jQuery, SCSS and Gulp.</p>
+    </div>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">Who I am</span>
+          <h2>About Me</h2>
+          <p>Senior WordPress Developer with 6+ years of experience creating scalable, maintainable and performance-focused web solutions.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-photo" data-aos="fade-right">
+            <img src="assets/img/my-profile-img.jpg" width="600" height="600" loading="lazy" alt="Ajay Hadiyel, Senior WordPress Developer">
+            <div class="about-badge"><strong>6+</strong><span>Years Experience</span></div>
+          </div>
+          <div class="about-copy" data-aos="fade-left">
+            <h3>Senior WordPress / PHP Developer</h3>
+            <p class="lead">I build custom WordPress themes and plugins, ACF-based architectures, Gutenberg blocks, WooCommerce experiences, dynamic configurators, API integrations and Shopify theme customizations.</p>
+            <ul class="info-grid">
+              <li class="info-item"><i class="bi bi-geo-alt" aria-hidden="true"></i><div><small>Location</small><span>Rajkot, Gujarat, India</span></div></li>
+              <li class="info-item"><i class="bi bi-envelope" aria-hidden="true"></i><div><small>Email</small><a href="mailto:ajayhadiyel5@gmail.com">ajayhadiyel5@gmail.com</a></div></li>
+              <li class="info-item"><i class="bi bi-telephone" aria-hidden="true"></i><div><small>Phone</small><a href="tel:+919712612182">+91 9712612182</a></div></li>
+              <li class="info-item"><i class="bi bi-mortarboard" aria-hidden="true"></i><div><small>Degree</small><span>B.C.A.</span></div></li>
+              <li class="info-item"><i class="bi bi-calendar-check" aria-hidden="true"></i><div><small>Experience</small><span>6+ Years</span></div></li>
+              <li class="info-item"><i class="bi bi-laptop" aria-hidden="true"></i><div><small>Work</small><span>Freelance / Remote opportunities</span></div></li>
+            </ul>
+            <p>My work includes booking integrations, AJAX-driven functionality, dynamic pricing and product configurators, data scraping, cron automation and reusable frontend components. I focus on turning client requirements into reliable web experiences.</p>
+            <div class="about-actions">
+              <a class="btn-x btn-grad" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project</a>
+              <a class="btn-x btn-outline" href="assets/downloads/Ajay_Hadiyel_Resume_2026.pdf" download><i class="bi bi-download" aria-hidden="true"></i> Download Resume (PDF)</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">What I work with</span>
+          <h2>Core Skills</h2>
+          <p>Technologies and skills I work with, grouped by area.</p>
+        </div>
+        <div class="cards-4">
+        <div class="skill-card" data-aos="fade-up">
+          <div class="icon-box"><i class="bi bi-wordpress" aria-hidden="true"></i></div>
+          <h3>WordPress Development</h3>
+          <ul><li><i class="bi bi-check2" aria-hidden="true"></i><span>Custom theme development</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Custom plugin development</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>ACF and Gutenberg blocks</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Elementor</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>WordPress hooks</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>REST API integrations</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>AJAX-based functionality</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Cron jobs and data scraping</span></li></ul>
+        </div>
+        <div class="skill-card" data-aos="fade-up">
+          <div class="icon-box"><i class="bi bi-cart3" aria-hidden="true"></i></div>
+          <h3>E-commerce</h3>
+          <ul><li><i class="bi bi-check2" aria-hidden="true"></i><span>WooCommerce customization</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Dynamic pricing</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Product configurators</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Booking and checkout workflows</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>OpenCart customization</span></li></ul>
+        </div>
+        <div class="skill-card" data-aos="fade-up">
+          <div class="icon-box"><i class="bi bi-code-slash" aria-hidden="true"></i></div>
+          <h3>Frontend &amp; Performance</h3>
+          <ul><li><i class="bi bi-check2" aria-hidden="true"></i><span>HTML, CSS, SCSS</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>JavaScript and jQuery</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>GSAP animations</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Responsive website development</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Gulp build workflow</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Performance-focused development</span></li></ul>
+        </div>
+        <div class="skill-card" data-aos="fade-up">
+          <div class="icon-box"><i class="bi bi-shop" aria-hidden="true"></i></div>
+          <h3>Shopify</h3>
+          <ul><li><i class="bi bi-check2" aria-hidden="true"></i><span>Theme customization</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Shopify Liquid</span></li><li><i class="bi bi-check2" aria-hidden="true"></i><span>Reusable sections and blocks</span></li></ul>
+        </div>
+        </div>
+        <p class="tools-line" data-aos="fade-up"><strong>Tools:</strong> <span class="chip">GitHub</span><span class="chip">Gulp</span></p>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">Background</span>
+          <h2>Resume</h2>
+          <p>Professional background, development experience and education.</p>
+          <p style="margin-top:22px"><a class="btn-x btn-grad" href="assets/downloads/Ajay_Hadiyel_Resume_2026.pdf" download><i class="bi bi-download" aria-hidden="true"></i> Download Resume (PDF)</a></p>
+        </div>
+        <div class="resume-grid">
+          <div>
+            <div class="resume-block">
+              <h3><i class="bi bi-person-lines-fill" aria-hidden="true"></i> Professional Summary</h3>
+              <div class="summary-card" data-aos="fade-up">
+                <h4>Ajay Hadiyel</h4>
+                <p><em>Senior WordPress Developer with 6+ years of experience building custom themes, plugins, ACF-based architectures, Gutenberg blocks, WooCommerce solutions, and performance-focused websites. Experienced in REST API integrations, AJAX-driven functionality, dynamic product/configurator systems, booking integrations, data scraping, cron automation, and Shopify theme customization. Strong background in translating client requirements into scalable and maintainable web solutions.</em></p>
+                <ul>
+                  <li>Rajkot, Gujarat, India</li>
+                  <li>+91 9712612182</li>
+                  <li>ajayhadiyel5@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="resume-block">
+              <h3><i class="bi bi-mortarboard" aria-hidden="true"></i> Education</h3>
+              <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <h4>B.C.A. — Bachelor of Computer Applications</h4>
+              <span class="timeline-date">2015 – 2017</span>
+              <p class="org">J.J. Kundalia Commerce College, Saurashtra University</p>
+              
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+              <h4>Higher Secondary Education</h4>
+              <span class="timeline-date">2013 – 2015</span>
+              <p class="org">Shree Hardhrol High School, Dhrol</p>
+              
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="resume-block">
+            <h3><i class="bi bi-briefcase" aria-hidden="true"></i> Professional Experience</h3>
+            <div class="timeline">
+            <div class="timeline-item" data-aos="fade-up">
+              <h4>WordPress Developer &amp; Shopify</h4>
+              <span class="timeline-date">2021 – Present</span>
+              <p class="org">Eminent Coders</p>
+              <ul><li>Develop custom WordPress themes and plugins based on client requirements.</li><li>Build ACF-based architectures, Gutenberg blocks, dynamic content systems, and reusable components.</li><li>Integrate REST APIs and develop custom AJAX functionality for interactive web applications.</li><li>Develop and customize WooCommerce functionality, including dynamic product and pricing workflows.</li><li>Customize Shopify themes and build reusable content sections for responsive websites.</li></ul>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+              <h4>WordPress Developer &amp; OpenCart</h4>
+              <span class="timeline-date">2019 – 2021</span>
+              <p class="org">Nlite Webs Solution</p>
+              <ul><li>Developed and customized WordPress websites based on client requirements.</li><li>Worked with OpenCart for e-commerce website development and customization.</li><li>Modified existing themes and functionality to deliver client-specific website solutions.</li></ul>
+            </div>
+            <div class="timeline-item" data-aos="fade-up">
+              <h4>Core PHP Developer</h4>
+              <span class="timeline-date">2018</span>
+              <p class="org">Alphaweb Technology</p>
+              <ul><li>Started as a Core PHP developer working with PHP and MySQL.</li><li>Developed and maintained basic websites and backend functionality.</li></ul>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section alt">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">My work</span>
+          <h2>Selected Projects</h2>
+          <p>A selection of WordPress, e-commerce, booking and Shopify development work.</p>
+        </div>
+        <div class="project-filters" role="group" aria-label="Filter projects">
+          <button type="button" class="filter-active" data-filter="*" aria-pressed="true">All</button>
+          <button type="button" data-filter=".filter-app" aria-pressed="false">Custom Development</button>
+          <button type="button" data-filter=".filter-product" aria-pressed="false">E-commerce</button>
+          <button type="button" data-filter=".filter-branding" aria-pressed="false">CMS / Shopify</button>
+        </div>
+        <div class="project-grid">
+          <div class="project-item filter-app">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/campit.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Campit Outdoor Resort website">
+                <span class="project-title">Campit Outdoor Resort</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/campit.jpg" class="glightbox" title="Campit Outdoor Resort" data-gallery="projects" aria-label="View larger image: Campit Outdoor Resort"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://campitresort.com/" target="_blank" rel="noopener" aria-label="Visit Campit Outdoor Resort website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Campground reservation system integrated with Campspot.</p>
+                <p class="work"><strong>My work:</strong> Built the booking flow: availability, site selection, guest details, taxes and fees, cart and checkout.</p>
+                <ul class="project-tech"><li>WordPress</li><li>Elementor</li><li>Campspot</li></ul>
+                <a class="project-link" href="https://campitresort.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Campit Outdoor Resort)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-product">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/viper.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Viper Powerboats website">
+                <span class="project-title">Viper Powerboats</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/viper.jpg" class="glightbox" title="Viper Powerboats" data-gallery="projects" aria-label="View larger image: Viper Powerboats"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://viperpowerboats.com/" target="_blank" rel="noopener" aria-label="Visit Viper Powerboats website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Custom boat configurator with dynamic color switching.</p>
+                <p class="work"><strong>My work:</strong> Developed conditional, option-based pricing and automated PDF generation with the configured boat image.</p>
+                <ul class="project-tech"><li>Configurator</li><li>Conditional pricing</li><li>PDF generation</li></ul>
+                <a class="project-link" href="https://viperpowerboats.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Viper Powerboats)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-app">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/arena.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Arena Motor website">
+                <span class="project-title">Arena Motor</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/arena.jpg" class="glightbox" title="Arena Motor" data-gallery="projects" aria-label="View larger image: Arena Motor"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://arenamotor.es/" target="_blank" rel="noopener" aria-label="Visit Arena Motor website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Bike configurator with conditional component selection.</p>
+                <p class="work"><strong>My work:</strong> Developed with ACF and WooCommerce: AJAX real-time pricing and dynamic product updates.</p>
+                <ul class="project-tech"><li>ACF</li><li>WooCommerce</li><li>AJAX</li></ul>
+                <a class="project-link" href="https://arenamotor.es/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Arena Motor)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-app">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/welcoma.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Welcoma Accessibility Widget website">
+                <span class="project-title">Welcoma Accessibility Widget</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/welcoma.jpg" class="glightbox" title="Welcoma Accessibility Widget" data-gallery="projects" aria-label="View larger image: Welcoma Accessibility Widget"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://wordpress.org/plugins/welcoma-accessibility-widget/" target="_blank" rel="noopener" aria-label="Visit Welcoma Accessibility Widget website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Accessibility widget plugin for WordPress, published on WordPress.org.</p>
+                <p class="work"><strong>My work:</strong> Created the plugin: accessibility profiles, keyboard navigation, text and contrast controls, multilingual interface and accessibility statements.</p>
+                <ul class="project-tech"><li>WordPress plugin</li><li>Accessibility</li><li>WCAG</li></ul>
+                <a class="project-link" href="https://wordpress.org/plugins/welcoma-accessibility-widget/" target="_blank" rel="noopener">View on WordPress.org<span class="visually-hidden"> (Welcoma Accessibility Widget)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/goprofessional.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Go Professional website">
+                <span class="project-title">Go Professional</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/goprofessional.jpg" class="glightbox" title="Go Professional" data-gallery="projects" aria-label="View larger image: Go Professional"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://goprofessional.co.in/" target="_blank" rel="noopener" aria-label="Visit Go Professional website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Product subscription system with user-specific posters.</p>
+                <p class="work"><strong>My work:</strong> Developed the subscription system and poster creation and management.</p>
+                <ul class="project-tech"><li>WordPress</li><li>ACF</li></ul>
+                <a class="project-link" href="https://goprofessional.co.in/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Go Professional)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-product">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/wylder.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Wylder Hotels website">
+                <span class="project-title">Wylder Hotels</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/wylder.jpg" class="glightbox" title="Wylder Hotels" data-gallery="projects" aria-label="View larger image: Wylder Hotels"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://wylderhotels.com/" target="_blank" rel="noopener" aria-label="Visit Wylder Hotels website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Custom WordPress website with dynamic offers and filters.</p>
+                <p class="work"><strong>My work:</strong> Developed with SCSS, Gulp.js and responsive Gutenberg blocks; built the offer listings and custom filters.</p>
+                <ul class="project-tech"><li>WordPress</li><li>Gutenberg</li><li>SCSS</li><li>Gulp.js</li></ul>
+                <a class="project-link" href="https://wylderhotels.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Wylder Hotels)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-app">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/klinik.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Klinik Atlas website">
+                <span class="project-title">Klinik Atlas</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/klinik.jpg" class="glightbox" title="Klinik Atlas" data-gallery="projects" aria-label="View larger image: Klinik Atlas"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://klinik-atlas.info/" target="_blank" rel="noopener" aria-label="Visit Klinik Atlas website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Location data shown on an interactive map.</p>
+                <p class="work"><strong>My work:</strong> Implemented HTML DOM data scraping with monthly cron jobs and a Leaflet.js map with location popups.</p>
+                <ul class="project-tech"><li>Data scraping</li><li>Cron jobs</li><li>Leaflet.js</li></ul>
+                <a class="project-link" href="https://klinik-atlas.info/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Klinik Atlas)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/bloc.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Bloc Skincare website">
+                <span class="project-title">Bloc Skincare</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/bloc.jpg" class="glightbox" title="Bloc Skincare" data-gallery="projects" aria-label="View larger image: Bloc Skincare"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://blocskincare.com/" target="_blank" rel="noopener" aria-label="Visit Bloc Skincare website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Shopify theme customization for responsive brand pages.</p>
+                <p class="work"><strong>My work:</strong> Customized the theme and developed reusable content blocks.</p>
+                <ul class="project-tech"><li>Shopify</li><li>Liquid</li><li>Reusable blocks</li></ul>
+                <a class="project-link" href="https://blocskincare.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Bloc Skincare)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/infojobs.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the InfoJobs website">
+                <span class="project-title">InfoJobs</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/infojobs.jpg" class="glightbox" title="InfoJobs" data-gallery="projects" aria-label="View larger image: InfoJobs"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://nosotros.infojobs.net/" target="_blank" rel="noopener" aria-label="Visit InfoJobs website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">WordPress website for InfoJobs' press and news content.</p>
+                
+                <ul class="project-tech"><li>WordPress</li></ul>
+                <a class="project-link" href="https://nosotros.infojobs.net/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (InfoJobs)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/tactile.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Eminent Tactiles website">
+                <span class="project-title">Eminent Tactiles</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/tactile.jpg" class="glightbox" title="Eminent Tactiles" data-gallery="projects" aria-label="View larger image: Eminent Tactiles"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://tactileindicators.in/" target="_blank" rel="noopener" aria-label="Visit Eminent Tactiles website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Website for a manufacturer and exporter of tactile ground surface indicators (TGSI).</p>
+                
+                <ul class="project-tech"><li>WordPress</li></ul>
+                <a class="project-link" href="https://tactileindicators.in/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Eminent Tactiles)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/eminentengitech.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Eminent Engitech website">
+                <span class="project-title">Eminent Engitech</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/eminentengitech.jpg" class="glightbox" title="Eminent Engitech" data-gallery="projects" aria-label="View larger image: Eminent Engitech"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://eminentengitech.com/" target="_blank" rel="noopener" aria-label="Visit Eminent Engitech website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Website for a door lock handle manufacturer in Rajkot.</p>
+                
+                <ul class="project-tech"><li>WordPress</li><li>WPBakery</li></ul>
+                <a class="project-link" href="https://eminentengitech.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Eminent Engitech)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+          <div class="project-item filter-branding">
+            <article class="project-card">
+              <div class="project-media">
+                <img src="assets/img/portfolio/eminentcoders.jpg" width="1024" height="768" loading="lazy" alt="Screenshot of the Eminent Coders website">
+                <span class="project-title">Eminent Coders</span>
+                <div class="project-actions">
+                  <a href="assets/img/portfolio/eminentcoders.jpg" class="glightbox" title="Eminent Coders" data-gallery="projects" aria-label="View larger image: Eminent Coders"><i class="bi bi-zoom-in" aria-hidden="true"></i></a>
+                  <a href="https://eminentcoders.com/" target="_blank" rel="noopener" aria-label="Visit Eminent Coders website"><i class="bi bi-link-45deg" aria-hidden="true"></i></a>
+                </div>
+              </div>
+              <div class="project-body">
+                <p class="overview">Company website for a web design and development agency.</p>
+                
+                <ul class="project-tech"><li>WordPress</li></ul>
+                <a class="project-link" href="https://eminentcoders.com/" target="_blank" rel="noopener">Visit live site<span class="visually-hidden"> (Eminent Coders)</span> <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="hotel-projects" data-aos="fade-up">
+          <h3>Hotel &amp; Hospitality Projects</h3>
+          <ul><li><a href="https://theseabirdresort.com/" target="_blank" rel="noopener">Sea Bird Resort<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li><li><a href="https://missionpacifichotel.com/" target="_blank" rel="noopener">Mission Pacific Hotel<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li><li><a href="https://leveltennyc.com/" target="_blank" rel="noopener">LevelTen NYC<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li><li><a href="https://www.hawkscay.com/" target="_blank" rel="noopener">Hawks Cay<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li><li><a href="https://www.eauresortandspa.com/" target="_blank" rel="noopener">EAU Palm Beach<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li><li><a href="https://equinox-spa.com/" target="_blank" rel="noopener">Equinox Spa<i class="bi bi-box-arrow-up-right" aria-hidden="true"></i></a></li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">What I offer</span>
+          <h2>Services</h2>
+          <p>Development services for businesses, agencies and clients looking for practical, maintainable web solutions.</p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-wordpress" aria-hidden="true"></i></div>
+            <h3>Custom WordPress Website Development</h3>
+            <p>Tailored WordPress websites built around your requirements, including REST API, AJAX and booking integrations.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-brush" aria-hidden="true"></i></div>
+            <h3>WordPress Theme Development</h3>
+            <p>Custom and premium themes with flexible layouts, reusable components and global style options.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-puzzle" aria-hidden="true"></i></div>
+            <h3>Custom WordPress Plugin Development</h3>
+            <p>Custom plugins that add the functionality your site needs.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-layout-text-window" aria-hidden="true"></i></div>
+            <h3>ACF &amp; Gutenberg Development</h3>
+            <p>ACF-powered architectures and responsive Gutenberg blocks for flexible, editor-friendly content.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-cart" aria-hidden="true"></i></div>
+            <h3>WooCommerce Customization</h3>
+            <p>Dynamic pricing, product configurators, subscriptions and custom e-commerce workflows.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-bug" aria-hidden="true"></i></div>
+            <h3>WordPress Bug Fixes &amp; Maintenance</h3>
+            <p>Bug fixing, improvements and ongoing maintenance for existing WordPress sites.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-speedometer2" aria-hidden="true"></i></div>
+            <h3>Speed &amp; Performance Optimization</h3>
+            <p>Performance-focused implementation and improvements for faster, scalable websites.</p>
+          </div>
+          <div class="service-card" data-aos="fade-up">
+            <div class="icon-box"><i class="bi bi-shop" aria-hidden="true"></i></div>
+            <h3>Shopify Liquid Theme Customization</h3>
+            <p>Shopify Liquid theme customization and reusable responsive sections.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hire strip -->
+    <section class="hire" aria-labelledby="hire-title">
+      <div class="container" data-aos="fade-up">
+        <h2 id="hire-title">Need a WordPress developer for your project?</h2>
+        <p>Available for freelance and remote work with businesses and agencies.</p>
+        <div class="actions">
+          <a class="btn-x btn-grad" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project</a>
+          <a class="btn-x btn-ghost" href="https://wa.me/919712612182" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="eyebrow">Get in touch</span>
+          <h2>Contact</h2>
+          <p>Open to freelance and remote WordPress projects.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-list" data-aos="fade-right">
+            <div class="contact-row"><i class="bi bi-geo-alt" aria-hidden="true"></i><div><h3>Location</h3><p>Rajkot, Gujarat, India</p></div></div>
+            <div class="contact-row"><i class="bi bi-telephone" aria-hidden="true"></i><div><h3>Phone</h3><p><a href="tel:+919712612182">+91 9712612182</a></p></div></div>
+            <div class="contact-row"><i class="bi bi-envelope" aria-hidden="true"></i><div><h3>Email</h3><p><a href="mailto:ajayhadiyel5@gmail.com">ajayhadiyel5@gmail.com</a></p></div></div>
+            <div class="contact-row"><i class="bi bi-whatsapp" aria-hidden="true"></i><div><h3>WhatsApp</h3><p><a href="https://wa.me/919712612182" target="_blank" rel="noopener">Message on WhatsApp</a></p></div></div>
+            <div class="contact-row"><i class="bi bi-github" aria-hidden="true"></i><div><h3>GitHub</h3><p><a href="https://github.com/ajay123hadiyel" target="_blank" rel="noopener">github.com/ajay123hadiyel</a></p></div></div>
+            <div class="contact-row"><i class="bi bi-linkedin" aria-hidden="true"></i><div><h3>LinkedIn</h3><p><a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener">linkedin.com/in/ajay-hadiyel-180643166</a></p></div></div>
+          </div>
+          <div class="contact-cta" data-aos="fade-left">
+            <h3>Have a project in mind? Let's talk.</h3>
+            <p>For WordPress, WooCommerce or Shopify projects, freelance work or agency collaboration, send me an email or connect on LinkedIn.</p>
+            <div class="actions">
+              <a class="btn-x btn-grad" href="mailto:ajayhadiyel5@gmail.com?subject=Project%20Inquiry">Start a Project by Email</a>
+              <a class="btn-x btn-ghost" href="https://wa.me/919712612182" target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> Chat on WhatsApp</a>
+            </div>
+            <a class="linkedin" href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener"><i class="bi bi-linkedin" aria-hidden="true"></i> Connect on LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main>
 
-  <footer id="footer" class="footer position-relative light-background">
-
+  <footer class="site-footer">
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Ajay Hadiyel</strong> <span>All Rights Reserved</span></p>
+      <a href="#home" class="brand" aria-label="Back to top"><img src="assets/img/apple-touch-icon.png" width="42" height="42" alt=""><span>Ajay Hadiyel</span></a>
+      <div class="footer-social">
+        <a href="mailto:ajayhadiyel5@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/ajay-hadiyel-180643166/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+        <a href="https://github.com/ajay123hadiyel" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+        <a href="https://wa.me/919712612182" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp" aria-hidden="true"></i></a>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Portfolio template by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+      <p>© Copyright <strong>Ajay Hadiyel</strong> All Rights Reserved</p>
+      <p>Portfolio template by <a href="https://bootstrapmade.com/">BootstrapMade</a></p>
     </div>
-
   </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" aria-label="Scroll to top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="scroll-top" aria-label="Scroll to top"><i class="bi bi-arrow-up-short" aria-hidden="true"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/typed.js/typed.umd.js"></script>
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/site.js"></script>
 
 </body>
 
