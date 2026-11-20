@@ -1349,7 +1349,13 @@ section,
 
 /* Hero: darker overlay so white text stays readable */
 .hero:before {
-  background: rgba(4, 11, 20, 0.65);
+  background: rgba(4, 11, 20, 0.4);
+}
+
+@media (max-width: 768px) {
+  .hero:before {
+    background: rgba(4, 11, 20, 0.62);
+  }
 }
 
 .hero h1 {
